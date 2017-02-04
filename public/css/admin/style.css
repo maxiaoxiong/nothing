@@ -1,0 +1,50 @@
+body {
+    background: #F3F3F4;
+}
+
+.navbar-default {
+    background: #2F4050;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #fff;
+}
+/*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus + .dropdown-menu {*/
+    /*display: block;*/
+/*}*/
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+.navbar-nav > li > .dropdown-menu {
+    background: #2F4050;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+}
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    background: #2F4050;
+    color: #fff;
+}
+.dropdown-menu {
+    min-width: 86px;
+    text-align: center;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+}
+
+.dropdown-menu>li>a {
+    padding: 5px 14px;
+}
+
+.dropdown-menu>li{
+    border-bottom: 1px solid #475869;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    background-color: #2F4050;
+    color: #ffffff;
+}
